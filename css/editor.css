@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url('../fonts/pts55f-webfont.eot');
+    src: url('../fonts/pts55f-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pts55f-webfont.woff') format('woff'),
+         url('../fonts/pts55f-webfont.ttf') format('truetype'),
+         url('../fonts/pts55f-webfont.svg#PTSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PTSansBold';
+    src: url('../fonts/pts75f-webfont.eot');
+    src: url('../fonts/pts75f-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pts75f-webfont.woff') format('woff'),
+         url('../fonts/pts75f-webfont.ttf') format('truetype'),
+         url('../fonts/pts75f-webfont.svg#PTSansBold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PTSansNarrowBold';
+    src: url('../fonts/ptn77f-webfont.eot');
+    src: url('../fonts/ptn77f-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptn77f-webfont.woff') format('woff'),
+         url('../fonts/ptn77f-webfont.ttf') format('truetype'),
+         url('../fonts/ptn77f-webfont.svg#PTSansNarrowBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {	
+  font: normal 13px Arial;
+	color: #484953;             
+}
+
+.calculator {
+  display:block;
+	background:url('../img/calculator.jpg') no-repeat 0 0 #dadbdb;
+  height:130px;
+  width:230px; 
+}
+
+.reset-tool {
+  display:block;
+	background:url('../img/reset-tool.jpg') no-repeat 0 0 #dadbdb;
+  height:130px;
+  width:230px; 
+}
+
+.training-videos {
+  display:block;
+	background:url('../img/videos.jpg') no-repeat 0 0 #dadbdb;
+  height:130px;
+  width:230px; 
+}
+
+
+h1 {
+font-family: 'PTSansNarrowBold';
+font-size: 32px;
+margin: 0 0 25px 0;
+color: #EF7F1A;
+line-height: 1.1;
+}
+
+h2 {
+font-family: 'PTSansNarrowBold';
+font-size: 18px;
+margin: 12px 0 12px 0;
+}

@@ -1,0 +1,50 @@
+ul.yiiPager {
+    border: 0 none;
+    display: inline;
+    font-size: 11px;
+    line-height: 100%;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+ul.yiiPager li {
+    display: inline;  
+}
+ul.yiiPager a:link, ul.yiiPager a:visited {
+    border: 1px solid #DDDDDD;
+    color: #0062A4;
+    font-weight: bold;
+    padding: 1px 6px;
+    text-decoration: none;
+    -moz-border-radius: 3px 3px 3px 3px;
+    background: url("skin/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png") repeat-x scroll 50% 50% #F6F6F6;
+}
+ul.yiiPager .page a {  
+    font-weight: normal; 
+}
+ul.yiiPager a:hover {
+    /*border: 1px solid #0E509E;*/
+}
+ul.yiiPager .selected a {
+	border: 1px solid #9d9d9d;
+	background:#F6F6F6 url(skin/images/ui-bg_highlight-soft_25_0073ea_1x100.png) 50% 50% repeat-x;
+	font-weight:bold;
+	color:#333;
+	outline:none;
+}
+ul.yiiPager .hidden a {
+    /*border: 1px solid #DEDEDE;
+    color: #888888;*/
+    display: none;
+}
+ul.yiiPager .first, ul.yiiPager .last {
+    display: none;
+}
+
+ul.yiiPager a:hover {
+	border: 1px solid #9d9d9d;
+	background:#F6F6F6 url(skin/images/ui-bg_highlight-soft_25_0073ea_1x100.png) 50% 50% repeat-x;
+	font-weight:bold;
+	color:#333;
+	outline:none;
+}	
+	 

@@ -1,0 +1,27 @@
+/* the id */
+#message_center {
+   position:fixed;
+   display:none;
+   left:0;
+   z-index:100;
+   background:#ffc;
+   padding:5px;
+   border:1px outset #CCCCCC;
+   width:100%;
+   overflow:auto;
+   font-family:sans-serif;
+   font-size:10pt;
+   text-align:left;
+}
+
+/* the id plus "_close" */
+#message_center_close {
+	position:absolute;
+   top:5px;
+	right:15px;
+	float:right;
+	height:10px;
+	width:10px;
+	cursor:pointer;
+	z-index:101;
+}

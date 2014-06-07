@@ -1,7 +1,7 @@
 exparto-CMS
 ===========
 This cms is Build on YII .<br>
-This cms all functionality with back end also<br>
+This cms all functionality with back-end site management<br>
 
 For back-end : go to yourhostname/admin<br>
 e.g localhost/admin<br>
